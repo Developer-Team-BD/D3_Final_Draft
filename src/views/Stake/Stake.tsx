@@ -204,7 +204,7 @@ function Stake() {
 
   return (
     <>
-      {address ? (
+      {!address ? (
         <Grid
           container
           direction="row"
